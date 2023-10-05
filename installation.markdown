@@ -4,17 +4,52 @@ title: 1. Installation
 permalink: /installation/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Installation
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+There are plans to incorporate the Plugin into the QGIS Plugin repository in the near future. In the meantime, you can test the plugin by manually downloading and installing it from github.com.
+
+**Please be aware that you are using the plugin at your own risk and without any warranty!**
+
+### 1. Download the Plugin
+
+Download the latest release as zip from 
+[KGR Finder releases](https://github.com/cuprit-gbr/culture-finder-KGR/releases)
+github repository.
 
 
-[jekyll-organization]: https://github.com/jekyll
+<img src="/assets/images/github-release.jpeg" alt="Github release" style="border: 1px solid  gray;">
 
-# hello
+Unzip the folder locally on your computer.
+
+
+### 2. Add the plugin to your profile folder
+
+Open QGIS and navigate to 
+Einstellungen -> Benutzer profile -> Aktuelles Benutzerverzeichnis öffnen
+
+<img src="/assets/images/qgis-user-folder.png" alt="Github release" style="border: 1px solid  gray">
+
+In the user directory place the unzipped folder from step 1. under
+python -> plugins
+
+<img src="/assets/images/user-directory.jpeg" alt="Github release" style="border: 1px solid  gray">
+
+
+### 3. Enable the plugin
+
+In QGIS open the plugin management 
+
+Erweiterungen -> Erweiterungen verwalten und installieren
+
+<img src="/assets/images/qgis-install-plugins.png" alt="Github release" style="border: 1px solid  gray">
+
+Enable the plugin
+
+<img src="/assets/images/enable-plugin.jpeg" alt="Github release" style="border: 1px solid  gray">
+
+
+
+
+
+

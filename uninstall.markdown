@@ -4,17 +4,14 @@ title: 3. Uninstall
 permalink: /uninstall/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Uninstall the plugin
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+in QGIS visit the plugin page:
 
+<img src="/assets/images/qgis-install-plugins.png" alt="Github release" style="border: 1px solid  gray">
 
-[jekyll-organization]: https://github.com/jekyll
+Select the plugin an choose uninstall as marked in the following graphic below.
 
-# hello
+<img src="/assets/images/uninstall.jpeg" alt="Github release" style="border: 1px solid  gray">
+

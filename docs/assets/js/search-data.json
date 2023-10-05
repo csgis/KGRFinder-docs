@@ -1,42 +1,42 @@
 {"0": {
     "doc": "1. Installation",
-    "title": "hello",
-    "content": " ",
-    "url": "/installation/#hello",
+    "title": "Installation",
+    "content": "There are plans to incorporate the Plugin into the QGIS Plugin repository in the near future. In the meantime, you can test the plugin by manually downloading and installing it from github.com. Please be aware that you are using the plugin at your own risk and without any warranty! . 1. Download the Plugin . Download the latest release as zip from KGR Finder releases github repository. Unzip the folder locally on your computer. 2. Add the plugin to your profile folder . Open QGIS and navigate to Einstellungen -&gt; Benutzer profile -&gt; Aktuelles Benutzerverzeichnis öffnen . In the user directory place the unzipped folder from step 1. under python -&gt; plugins . 3. Enable the plugin . In QGIS open the plugin management . Erweiterungen -&gt; Erweiterungen verwalten und installieren . Enable the plugin . ",
+    "url": "/installation/#installation",
     
-    "relUrl": "/installation/#hello"
+    "relUrl": "/installation/#installation"
   },"1": {
     "doc": "1. Installation",
     "title": "1. Installation",
-    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "content": " ",
     "url": "/installation/",
     
     "relUrl": "/installation/"
   },"2": {
     "doc": "4. License",
-    "title": "hello",
-    "content": " ",
-    "url": "/license/#hello",
+    "title": "Lisence",
+    "content": "This plugin is distributed under the terms of the GNU General Public License version 3 . ",
+    "url": "/license/#lisence",
     
-    "relUrl": "/license/#hello"
+    "relUrl": "/license/#lisence"
   },"3": {
     "doc": "4. License",
     "title": "4. License",
-    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "content": " ",
     "url": "/license/",
     
     "relUrl": "/license/"
   },"4": {
     "doc": "3. Uninstall",
-    "title": "hello",
-    "content": " ",
-    "url": "/uninstall/#hello",
+    "title": "Uninstall the plugin",
+    "content": "in QGIS visit the plugin page: . Select the plugin an choose uninstall as marked in the following graphic below. ",
+    "url": "/uninstall/#uninstall-the-plugin",
     
-    "relUrl": "/uninstall/#hello"
+    "relUrl": "/uninstall/#uninstall-the-plugin"
   },"5": {
     "doc": "3. Uninstall",
     "title": "3. Uninstall",
-    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "content": " ",
     "url": "/uninstall/",
     
     "relUrl": "/uninstall/"
