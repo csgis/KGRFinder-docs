@@ -1,0 +1,58 @@
+{"0": {
+    "doc": "1. Installation",
+    "title": "hello",
+    "content": " ",
+    "url": "/installation/#hello",
+    
+    "relUrl": "/installation/#hello"
+  },"1": {
+    "doc": "1. Installation",
+    "title": "1. Installation",
+    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "url": "/installation/",
+    
+    "relUrl": "/installation/"
+  },"2": {
+    "doc": "4. License",
+    "title": "hello",
+    "content": " ",
+    "url": "/license/#hello",
+    
+    "relUrl": "/license/#hello"
+  },"3": {
+    "doc": "4. License",
+    "title": "4. License",
+    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "url": "/license/",
+    
+    "relUrl": "/license/"
+  },"4": {
+    "doc": "3. Uninstall",
+    "title": "hello",
+    "content": " ",
+    "url": "/uninstall/#hello",
+    
+    "relUrl": "/uninstall/#hello"
+  },"5": {
+    "doc": "3. Uninstall",
+    "title": "3. Uninstall",
+    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "url": "/uninstall/",
+    
+    "relUrl": "/uninstall/"
+  },"6": {
+    "doc": "2. Usage",
+    "title": "hello",
+    "content": " ",
+    "url": "/usage/#hello",
+    
+    "relUrl": "/usage/#hello"
+  },"7": {
+    "doc": "2. Usage",
+    "title": "2. Usage",
+    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "url": "/usage/",
+    
+    "relUrl": "/usage/"
+  }
+}
