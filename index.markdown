@@ -5,8 +5,6 @@
 layout: home
 ---
 
-# About
-
 The KGF Finder QGIS Plugin enables users to download data from OpenStreetMap and/or iDAI.Gazetteer. This can be done either by drawing a rectangle or by selecting a polygon layer.
 
 ```
