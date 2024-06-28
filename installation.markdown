@@ -17,23 +17,17 @@ Download the latest release as zip from
 [KGR Finder releases](https://github.com/csgis/culture-finder-KGR/releases)
 github repository.
 
+The plugin must name:
+
+kgr_finder.zip
 
 <img src="/assets/images/github-release.jpeg" alt="Github release" style="border: 1px solid  gray;">
 
-Unzip the folder locally on your computer.
+Install the downloaded zip via QGIS plugin management.
 
 
-### 2. Add the plugin to your profile folder
+<img src="/assets/images/install-as-zip.jpeg" alt="Github release" style="border: 1px solid  gray;">
 
-Open QGIS and navigate to 
-Einstellungen -> Benutzer profile -> Aktuelles Benutzerverzeichnis öffnen
-
-<img src="/assets/images/qgis-user-folder.png" alt="Github release" style="border: 1px solid  gray">
-
-In the user directory place the unzipped folder from step 1. under
-python -> plugins
-
-<img src="/assets/images/user-directory.jpeg" alt="Github release" style="border: 1px solid  gray">
 
 
 ### 3. Enable the plugin
