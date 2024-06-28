@@ -14,7 +14,7 @@ There are plans to incorporate the Plugin into the QGIS Plugin repository in the
 ### 1. Download the Plugin
 
 Download the latest release as zip from 
-[KGR Finder releases](https://github.com/cuprit-gbr/culture-finder-KGR/releases)
+[KGR Finder releases](https://github.com/csgis/culture-finder-KGR/releases)
 github repository.
 
 
