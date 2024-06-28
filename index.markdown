@@ -12,4 +12,4 @@ The Plugin is currently in public beta testing phase!
 ```
 
 ---
-build by [cuprit.net](https://cuprit.net)
+build by [csgis.de](https://csgis.de)
