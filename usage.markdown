@@ -40,7 +40,7 @@ Whenever a search is performed, the KGR Finder Plugin adds a group of layers for
 
 <img src="/assets/images/layer-tool.png" alt="Github release" style="border: 1px solid  gray">
 
-The Layer tool works by use of an existing polygon layer as survey area. The project's CRS must be the same as the Layer's CRS that you are using for obtaining the data. **(When your Project is in EPSG:3857 the source layer should also be in EPSG:3857)**
+The Layer tool works by use of an existing polygon layer as survey area. The project's CRS must be the same as the Layer's CRS that you are using for obtaining the data. **(When your source layer is in EPSG:3857, your QGIS Project should also be in EPSG:3857)**
 
 After clicking the button on the Layer Tool, a dialog box will open, prompting you to select a polygon layer.
 
