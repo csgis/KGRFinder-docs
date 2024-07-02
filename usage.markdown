@@ -6,37 +6,51 @@ permalink: /usage/
 
 # Usage
 
+## General
+
 The plugin adds a new toolbar with two Buttons
 
 **D** = Draw Tool and **L** = Layer Tool
 
-<img src="/assets/images/tools.jpeg" alt="Github release" style="border: 1px solid  gray">
+<img src="/assets/images/tools.jpeg" alt="tools" style="border: 1px solid  gray">
 
 In case the toolbar is hidden enable it in the _Toolbar_ Menu:
 
-<img src="/assets/images/toolbar.png" alt="Github release" style="border: 1px solid  gray">
+<img src="/assets/images/toolbar.png" alt="toolbar" style="border: 1px solid  gray">
 
-### The Draw Tool
+In case the survey area is larger than 1000.00 km2, a warning is shown as this might result in a very large API request.
 
-<img src="/assets/images/draw-tool.png" alt="Github release" style="border: 1px solid  gray">
+<img src="/assets/images/warning.jpeg" alt="warning" style="border: 1px solid  gray">
+
+Take note of the status messages at the top of the map window. A green success message informs about a successful search.
+A orange warning means no data has been returned from a API.
+
+<img src="/assets/images/status.jpeg" alt="status" style="border: 1px solid  gray">
+
+## The Draw Tool
+
+<img src="/assets/images/draw-tool.png" alt="drawing" style="border: 1px solid  gray">
 
 **We suggest to work in EPSG:3857!**
 
 When enabled, each left mouse click adds a corner point to the polygon on the map. Close the polygon with a right click.
 
-<img src="/assets/images/polygon-draw.jpeg" alt="Github release" style="border: 1px solid  gray">
+<img src="/assets/images/polygon-draw.jpeg" alt="drawing" style="border: 1px solid  gray">
 
 The red outline draws the survey area that will serve as a bounding box for API requests.
 After finishing the drawing, the found features are added to the map.
 
-<img src="/assets/images/closed-polygon.jpeg" alt="Github release" style="border: 1px solid  gray">
+<img src="/assets/images/closed-polygon.jpeg" alt="polygon" style="border: 1px solid  gray">
 
 Whenever a search is performed, the KGR Finder Plugin adds a group of layers for polygons and point data. With a point and polygon Layer and two styles for iDAI.gazeteer or OSM data.
 
-<img src="/assets/images/layer-group.jpeg" alt="Github release" style="border: 1px solid  gray">
+<img src="/assets/images/layer-group.jpeg" alt="layer group" style="border: 1px solid  gray">
 
 
-### The Layer Tool
+
+
+
+## The Layer Tool
 
 <img src="/assets/images/layer-tool.png" alt="Github release" style="border: 1px solid  gray">
 
