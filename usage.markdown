@@ -12,7 +12,7 @@ The plugin adds a new toolbar with two Buttons
 
 <img src="/assets/images/tools.jpeg" alt="Github release" style="border: 1px solid  gray">
 
-In case the toolbar is hidden enable it in the "Toolbar" Menu:
+In case the toolbar is hidden enable it in the _Toolbar_ Menu:
 
 <img src="/assets/images/toolbar.png" alt="Github release" style="border: 1px solid  gray">
 
@@ -26,12 +26,12 @@ When enabled, each left mouse click adds a corner point to the polygon on the ma
 
 <img src="/assets/images/polygon-draw.jpeg" alt="Github release" style="border: 1px solid  gray">
 
-The red outline delineates the survey area that will serve as a bounding box for API requests.
-After finishing the drawing, the returned features are added to the map.
+The red outline draws the survey area that will serve as a bounding box for API requests.
+After finishing the drawing, the found features are added to the map.
 
 <img src="/assets/images/closed-polygon.jpeg" alt="Github release" style="border: 1px solid  gray">
 
-Whenever a search is performed, the KGR Finder Plugin adds a group of layers for polygons and point data.
+Whenever a search is performed, the KGR Finder Plugin adds a group of layers for polygons and point data. With a point and polygon Layer and two styles for iDAI.gazeteer or OSM data.
 
 <img src="/assets/images/layer-group.jpeg" alt="Github release" style="border: 1px solid  gray">
 
