@@ -76,34 +76,48 @@
     
     "relUrl": "/uninstall/"
   },"11": {
+    "doc": "3.1 Draw Tool",
+    "title": "The Draw Tool",
+    "content": ". We suggest to work in EPSG:3857! . When enabled, each left mouse click adds a corner point to the polygon on the map. Close the polygon with a right click. The red outline draws the survey area that will serve as a bounding box for API requests. After finishing the drawing, the found features are added to the map. Whenever a search is performed, the KGR Finder Plugin adds a group of layers for polygons and point data. With a point and polygon Layer and two styles for iDAI.gazeteer or OSM data. ",
+    "url": "/usage-draw/#the-draw-tool",
+    
+    "relUrl": "/usage-draw/#the-draw-tool"
+  },"12": {
+    "doc": "3.1 Draw Tool",
+    "title": "3.1 Draw Tool",
+    "content": " ",
+    "url": "/usage-draw/",
+    
+    "relUrl": "/usage-draw/"
+  },"13": {
+    "doc": "3.2 Layer Tool",
+    "title": "The Layer Tool",
+    "content": ". The Layer tool works by use of an existing polygon layer as survey area. The project’s CRS must be the same as the Layer’s CRS that you are using for obtaining the data. (When your source layer is in EPSG:3857, your QGIS Project should also be in EPSG:3857) . After clicking the button on the Layer Tool, a dialog box will open, prompting you to select a polygon layer. The polygon layer is used as following: . | in case no polygon is selected, all found polygons are used as survey areas | in case one or more polygons are selected, each selected polygon is used as survey area | . ",
+    "url": "/usage-layer/#the-layer-tool",
+    
+    "relUrl": "/usage-layer/#the-layer-tool"
+  },"14": {
+    "doc": "3.2 Layer Tool",
+    "title": "3.2 Layer Tool",
+    "content": " ",
+    "url": "/usage-layer/",
+    
+    "relUrl": "/usage-layer/"
+  },"15": {
     "doc": "3. Usage",
     "title": "Usage",
     "content": " ",
     "url": "/usage/#usage",
     
     "relUrl": "/usage/#usage"
-  },"12": {
+  },"16": {
     "doc": "3. Usage",
     "title": "General",
     "content": "Toolbar . The plugin adds a new toolbar with two Buttons . D = Draw Tool and L = Layer Tool . In case the toolbar is hidden enable it in the Toolbar Menu: . Survey size warning . In case the survey area is larger than 1000.00 km2, a warning is shown as this might result in a very large API request. Information about found data . Take note of the status messages at the top of the map window. A green success message informs about a successful search. A orange warning means no data has been returned from a API. Attribute table . The created layer is filled with the returned data. This is generalized for both APIs. The source column shows the API source. Tags are special for OSM and will only be filled in OSM API requests. In case no data is retuned for a column a “-“ is used. ",
     "url": "/usage/#general",
     
     "relUrl": "/usage/#general"
-  },"13": {
-    "doc": "3. Usage",
-    "title": "The Draw Tool",
-    "content": ". We suggest to work in EPSG:3857! . When enabled, each left mouse click adds a corner point to the polygon on the map. Close the polygon with a right click. The red outline draws the survey area that will serve as a bounding box for API requests. After finishing the drawing, the found features are added to the map. Whenever a search is performed, the KGR Finder Plugin adds a group of layers for polygons and point data. With a point and polygon Layer and two styles for iDAI.gazeteer or OSM data. ",
-    "url": "/usage/#the-draw-tool",
-    
-    "relUrl": "/usage/#the-draw-tool"
-  },"14": {
-    "doc": "3. Usage",
-    "title": "The Layer Tool",
-    "content": ". The Layer tool works by use of an existing polygon layer as survey area. The project’s CRS must be the same as the Layer’s CRS that you are using for obtaining the data. (When your source layer is in EPSG:3857, your QGIS Project should also be in EPSG:3857) . After clicking the button on the Layer Tool, a dialog box will open, prompting you to select a polygon layer. The polygon layer is used as following: . | in case no polygon is selected, all found polygons are used as survey areas | in case one or more polygons are selected, each selected polygon is used as survey area | . ",
-    "url": "/usage/#the-layer-tool",
-    
-    "relUrl": "/usage/#the-layer-tool"
-  },"15": {
+  },"17": {
     "doc": "3. Usage",
     "title": "3. Usage",
     "content": " ",
