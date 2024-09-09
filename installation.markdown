@@ -9,18 +9,38 @@ permalink: /installation/
 
 There are plans to incorporate the Plugin into the QGIS Plugin repository in the near future. In the meantime, you can use the plugin by manually downloading and installing it from github.com.
 
+There are two ways to install the plugin. 
+A) Using the QGIS Plugin Manager
+B) Downloading the plugin from github.com
+
 **Please be aware that you are using the plugin at your own risk and without any warranty!**
 
-### 1. Download the Plugin
+## A. Install from extension manager
+
+The plugin is currently marked as _experimental_. To install it via the extension manager follow these steps:
+
+### 1. open the extension manager settings and allow experimental extension
+<img src="/assets/images/install-extension.jpeg" alt="Install extension" style="border: 1px solid  gray;">
+
+
+<img src="/assets/images/extension-settings.jpeg" alt="Github release" style="border: 1px solid  gray;">
+
+### 2. Go to first tab "all" and search for KGR Finder.
+
+<img src="/assets/images/search-extension.jpeg" alt="Github release" style="border: 1px solid  gray;">
+
+Install the found plugin.
+
+## B. Install from download
 
 Download the latest release as zip from 
-[KGR Finder releases](https://github.com/csgis/culture-finder-KGR/releases)
+[KGR Finder releases](https://github.com/dainst/kgr_finder/releases/tag/rc-1)
 github repository.
-
-The plugin must name: _kgr_finder.zip_
 
 <img src="/assets/images/github-release.jpeg" alt="Github release" style="border: 1px solid  gray;">
 
+
+The plugin must name: _kgr_finder.zip_
 
 Install the downloaded zip via QGIS plugin management.
 

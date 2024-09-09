@@ -1,123 +1,137 @@
 {"0": {
     "doc": "1. Installation",
     "title": "Installation",
-    "content": "There are plans to incorporate the Plugin into the QGIS Plugin repository in the near future. In the meantime, you can use the plugin by manually downloading and installing it from github.com. Please be aware that you are using the plugin at your own risk and without any warranty! . 1. Download the Plugin . Download the latest release as zip from KGR Finder releases github repository. The plugin must name: kgr_finder.zip . Install the downloaded zip via QGIS plugin management. 3. Enable the plugin . In QGIS open the plugin management . Erweiterungen → Erweiterungen verwalten und installieren . Enable the plugin . ",
+    "content": "There are plans to incorporate the Plugin into the QGIS Plugin repository in the near future. In the meantime, you can use the plugin by manually downloading and installing it from github.com. There are two ways to install the plugin. A) Using the QGIS Plugin Manager B) Downloading the plugin from github.com . Please be aware that you are using the plugin at your own risk and without any warranty! . ",
     "url": "/installation/#installation",
     
     "relUrl": "/installation/#installation"
   },"1": {
+    "doc": "1. Installation",
+    "title": "A. Install from extension manager",
+    "content": "The plugin is currently marked as experimental. To install it via the extension manager follow these steps: . 1. open the extension manager settings and allow experimental extension . 2. Go to first tab “all” and search for KGR Finder. Install the found plugin. ",
+    "url": "/installation/#a-install-from-extension-manager",
+    
+    "relUrl": "/installation/#a-install-from-extension-manager"
+  },"2": {
+    "doc": "1. Installation",
+    "title": "B. Install from download",
+    "content": "Download the latest release as zip from KGR Finder releases github repository. The plugin must name: kgr_finder.zip . Install the downloaded zip via QGIS plugin management. 3. Enable the plugin . In QGIS open the plugin management . Erweiterungen → Erweiterungen verwalten und installieren . Enable the plugin . ",
+    "url": "/installation/#b-install-from-download",
+    
+    "relUrl": "/installation/#b-install-from-download"
+  },"3": {
     "doc": "1. Installation",
     "title": "1. Installation",
     "content": " ",
     "url": "/installation/",
     
     "relUrl": "/installation/"
-  },"2": {
+  },"4": {
     "doc": "4. License",
     "title": "Lisence",
     "content": "This plugin is distributed under the terms of the GNU General Public License version 3 . ",
     "url": "/license/#lisence",
     
     "relUrl": "/license/#lisence"
-  },"3": {
+  },"5": {
     "doc": "4. License",
     "title": "4. License",
     "content": " ",
     "url": "/license/",
     
     "relUrl": "/license/"
-  },"4": {
+  },"6": {
     "doc": "5. Logging",
     "title": "Logging",
     "content": "The plugin creates log files within the plugin directory in a folder called “logs”. for development set the environent variable KGR to development to also log debug messages. ",
     "url": "/logging/#logging",
     
     "relUrl": "/logging/#logging"
-  },"5": {
+  },"7": {
     "doc": "5. Logging",
     "title": "5. Logging",
     "content": " ",
     "url": "/logging/",
     
     "relUrl": "/logging/"
-  },"6": {
+  },"8": {
     "doc": "2. Settings",
     "title": "Settings",
     "content": "After a successful installation, the plugin will add a new settings section. You can access the settings through the QGIS Menu. In the left sidebar, select “KGR Finder”. On the opening page, you will find three collapsible sections. Section Settings . Here you can choose which APIs the plugin should use. Every checked item will be respected. Section OSM - Cultural Tags . The OSM search is done for nodes (points) and ways (lines, polygons). Relations are currently not in use. If you have selected the OSM abfragen checkbox in the settings section, the following options will be taken into account. | Select the tags you wish to consider in an OSM search. The search operates with an OR logic, which means that if you check heritage and historic, items with either of these tags will be found. | The textarea below the checkboxes enables you to freely add tags as per your requirements. Place each tag on a new line.. For example: building=flats or wall . | Find more tags here: tag finder | . | . ",
     "url": "/settings/#settings",
     
     "relUrl": "/settings/#settings"
-  },"7": {
+  },"9": {
     "doc": "2. Settings",
     "title": "Section IDAI Gezetteer Filter",
     "content": "If you have selected the iDAI abfragen checkbox in the settings section, the following options will be taken into account. | Choose the location type. We suggest to choose archeological-site or archeological-area. | Use the textarea below the radio buttons that should filter the results. Place each tag on a new line. Attention. The API works with AND operator. Meaning every found feature must use defined tags. | . For more see: Gazetteer Extended search . ",
     "url": "/settings/#section-idai-gezetteer-filter",
     
     "relUrl": "/settings/#section-idai-gezetteer-filter"
-  },"8": {
+  },"10": {
     "doc": "2. Settings",
     "title": "2. Settings",
     "content": " ",
     "url": "/settings/",
     
     "relUrl": "/settings/"
-  },"9": {
+  },"11": {
     "doc": "4. Uninstall",
     "title": "Uninstall the plugin",
     "content": "in QGIS visit the plugin page: . Select the plugin and choose uninstall as marked in the following graphic below. ",
     "url": "/uninstall/#uninstall-the-plugin",
     
     "relUrl": "/uninstall/#uninstall-the-plugin"
-  },"10": {
+  },"12": {
     "doc": "4. Uninstall",
     "title": "4. Uninstall",
     "content": " ",
     "url": "/uninstall/",
     
     "relUrl": "/uninstall/"
-  },"11": {
+  },"13": {
     "doc": "3.1 Draw Tool",
     "title": "The Draw Tool",
     "content": ". We suggest to work in EPSG:3857! . When enabled, each left mouse click adds a corner point to the polygon on the map. Close the polygon with a right click. The red outline draws the survey area that will serve as a bounding box for API requests. After finishing the drawing, the found features are added to the map. Whenever a search is performed, the KGR Finder Plugin adds a group of layers for polygons and point data. With a point and polygon Layer and two styles for iDAI.gazeteer or OSM data. ",
     "url": "/usage-draw/#the-draw-tool",
     
     "relUrl": "/usage-draw/#the-draw-tool"
-  },"12": {
+  },"14": {
     "doc": "3.1 Draw Tool",
     "title": "3.1 Draw Tool",
     "content": " ",
     "url": "/usage-draw/",
     
     "relUrl": "/usage-draw/"
-  },"13": {
+  },"15": {
     "doc": "3.2 Layer Tool",
     "title": "The Layer Tool",
     "content": ". The Layer tool works by use of an existing polygon layer as survey area. The project’s CRS must be the same as the Layer’s CRS that you are using for obtaining the data. (When your source layer is in EPSG:3857, your QGIS Project should also be in EPSG:3857) . After clicking the button on the Layer Tool, a dialog box will open, prompting you to select a polygon layer. The polygon layer is used as following: . | in case no polygon is selected, all found polygons are used as survey areas | in case one or more polygons are selected, each selected polygon is used as survey area | . ",
     "url": "/usage-layer/#the-layer-tool",
     
     "relUrl": "/usage-layer/#the-layer-tool"
-  },"14": {
+  },"16": {
     "doc": "3.2 Layer Tool",
     "title": "3.2 Layer Tool",
     "content": " ",
     "url": "/usage-layer/",
     
     "relUrl": "/usage-layer/"
-  },"15": {
+  },"17": {
     "doc": "3. Usage",
     "title": "Usage",
     "content": " ",
     "url": "/usage/#usage",
     
     "relUrl": "/usage/#usage"
-  },"16": {
+  },"18": {
     "doc": "3. Usage",
     "title": "General",
     "content": "Toolbar . The plugin adds a new toolbar with two Buttons . D = Draw Tool and L = Layer Tool . In case the toolbar is hidden enable it in the Toolbar Menu: . Survey size warning . In case the survey area is larger than 1000.00 km2, a warning is shown as this might result in a very large API request. Information about found data . Take note of the status messages at the top of the map window. A green success message informs about a successful search. A orange warning means no data has been returned from a API. Attribute table . The created layer is filled with the returned data. This is generalized for both APIs. The source column shows the API source. Tags are special for OSM and will only be filled in OSM API requests. In case no data is retuned for a column a “-“ is used. ",
     "url": "/usage/#general",
     
     "relUrl": "/usage/#general"
-  },"17": {
+  },"19": {
     "doc": "3. Usage",
     "title": "3. Usage",
     "content": " ",
