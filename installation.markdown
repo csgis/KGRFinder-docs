@@ -19,13 +19,7 @@ B) Downloading the plugin from github.com
 
 The plugin is currently marked as _experimental_. To install it via the extension manager follow these steps:
 
-### 1. open the extension manager settings and allow experimental extension
-<img src="/assets/images/install-extension.jpeg" alt="Install extension" style="border: 1px solid  gray;">
-
-
-<img src="/assets/images/extension-settings.jpeg" alt="Github release" style="border: 1px solid  gray;">
-
-### 2. Go to first tab "all" and search for KGR Finder.
+### Open the extension manager settings and to first tab "all" and search for KGR Finder.
 
 <img src="/assets/images/search-extension.jpeg" alt="Github release" style="border: 1px solid  gray;">
 
